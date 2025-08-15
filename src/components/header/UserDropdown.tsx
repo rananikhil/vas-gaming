@@ -54,7 +54,7 @@ export default function UserDropdown() {
             Nik Rana
           </span>
           <span className="mt-0.5 block text-theme-xs text-gray-500 dark:text-gray-400">
-            nik@rana.com
+            contact@nikhilrana.com
           </span>
         </div>
 
