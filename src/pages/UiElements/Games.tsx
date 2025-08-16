@@ -1,4 +1,3 @@
-import {useNavigate} from "react-router";
 import ComponentCard from "../../components/common/ComponentCard";
 import PageBreadcrumb from "../../components/common/PageBreadCrumb";
 import PageMeta from "../../components/common/PageMeta";
@@ -6,8 +5,6 @@ import ThreeColumnSnakeGame from "../../components/ui/games/ThreeColumnSnakeGame
 import GamesGrid from "../../components/ui/games/GamesGrid";
 
 export default function Games() {
-
-    const navigate = useNavigate();
 
     interface GameRef {
       img: string,
@@ -43,11 +40,6 @@ export default function Games() {
         { img: "/games/danger_running/icon-256.png", path: "/games/danger_running/index.html" }
     ]
 
-    function playGame() {
-        navigate('/games/snakegame/index.html');
-        navigate(0);
-    }
-
   return (
     <>
       <PageMeta
@@ -57,10 +49,10 @@ export default function Games() {
       <PageBreadcrumb pageTitle="Games" />
         <div className="space-y-5 sm:space-y-6">
             <ComponentCard title="Popular Games!">
-                <GamesGrid games={games} />
+                <GamesGrid games={games} fullScreen />
             </ComponentCard>
             <ComponentCard title="Evergreen Classic Game!">
-                <ThreeColumnSnakeGame onClick={playGame} />
+                <ThreeColumnSnakeGame />
             </ComponentCard>
         </div>
     </>

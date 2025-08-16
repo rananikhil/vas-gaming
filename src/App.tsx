@@ -19,7 +19,7 @@ import Blank from "./pages/Blank";
 import AppLayout from "./layout/AppLayout";
 import { ScrollToTop } from "./components/common/ScrollToTop";
 import Home from "./pages/Dashboard/Home";
-import GamePlay from "./components/ui/games/GamePlay";
+import PlayGame from "./components/ui/games/PlayGame";
 
 export default function App() {
   return (
@@ -36,7 +36,7 @@ export default function App() {
             <Route path="/calendar" element={<Calendar />} />
             <Route path="/videos" element={<Videos />} />
             <Route path="/games" element={<Games />} />
-            <Route path="/play" element={<GamePlay />} />
+            <Route path="/play" element={<PlayGame />} />
             <Route path="/blank" element={<Blank />} />
 
             {/* Forms */}

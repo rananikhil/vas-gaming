@@ -1,4 +1,13 @@
-export default function ThreeColumnSnakeGame({ onClick }) {
+import {useNavigate} from "react-router";
+
+export default function ThreeColumnSnakeGame() {
+
+    const navigate = useNavigate();
+
+    function playGame() {
+        navigate('/games/snakegame/index.html');
+        navigate(0);
+    }
 
     return (
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
@@ -7,7 +16,7 @@ export default function ThreeColumnSnakeGame({ onClick }) {
                     src="/images/games/snake-game-demo.gif"
                     alt=" grid"
                     className="border border-gray-200 rounded-xl dark:border-gray-800"
-                    onClick={onClick}
+                    onClick={playGame}
                 />
             </div>
 
@@ -16,7 +25,7 @@ export default function ThreeColumnSnakeGame({ onClick }) {
                     src="/images/games/snake-game-demo.gif"
                     alt=" grid"
                     className="border border-gray-200 rounded-xl dark:border-gray-800"
-                    onClick={onClick}
+                    onClick={playGame}
                 />
             </div>
 
@@ -25,7 +34,7 @@ export default function ThreeColumnSnakeGame({ onClick }) {
                     src="/images/games/snake-game-demo.gif"
                     alt=" grid"
                     className="border border-gray-200 rounded-xl dark:border-gray-800"
-                    onClick={onClick}
+                    onClick={playGame}
                 />
             </div>
         </div>
