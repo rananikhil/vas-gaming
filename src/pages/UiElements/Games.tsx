@@ -37,7 +37,11 @@ export default function Games() {
         { img: "/games/coloring-book-for-kids/assets/720X320.jpg", path: "/games/coloring-book-for-kids/index.html" },
         { img: "/games/connect4/Images/connect4_512x512.png", path: "/games/connect4/gamefiles/index.html" },
         { img: "/games/crazy-match3/Images/crazy_match3_512x512.png", path: "/games/crazy-match3/gamefiles/index.html" },
-        { img: "/games/danger_running/icon-256.png", path: "/games/danger_running/index.html" }
+        { img: "/games/danger_running/icon-256.png", path: "/games/danger_running/index.html" },
+        { img: "/games/SupercarsPuzzle/Images/SupercarsPuzzle_512x512.png", path: "/games/SupercarsPuzzle/Gamefiles/index.html" },
+        { img: "/games/FindTheCat/Images/Find_The_Cat_512x512.png", path: "/games/FindTheCat/Gamefiles/index.html" },
+        { img: "/games/FindSevenDifferencesKids/Images/Find_Seven_Differences_Kids_512x512.png", path: "/games/FindSevenDifferencesKids/Gamefiles/index.html" },
+        { img: "/games/CirclePuzzle/Images/Circle_Puzzle_512x512.png", path: "/games/CirclePuzzle/Gamefiles/index.html" }
     ]
 
   return (
