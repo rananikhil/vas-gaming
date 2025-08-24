@@ -32,7 +32,7 @@ export default function Games() {
         { img: "/games/CholiJet/Images/CholiJet_512x512.png", path: "/games/CholiJet/Gamefiles/index.html" },
         { img: "/games/ChristmasBubble/Images/Christmas_Bubble_Icon_512x512.png", path: "/games/ChristmasBubble/gamefiles/index.html" },
         { img: "/games/christmasfurious/Images/christmasfurious_512x512.png", path: "/games/christmasfurious/gamefiles/index.html" },
-        { img: "/games/christmasmatch/Images/christmas_match_512x512.png", path: "/games/christmasmatch/gamefiles/index.html" },
+        { img: "/games/christmas-match/Images/christmas_match_512x512.png", path: "/games/christmas-match/gamefiles/index.html" },
         { img: "/games/circles-draw/icon-256.png", path: "/games/circles-draw/index.html" },
         { img: "/games/coloring-book-for-kids/assets/720X320.jpg", path: "/games/coloring-book-for-kids/index.html" },
         { img: "/games/connect4/Images/connect4_512x512.png", path: "/games/connect4/gamefiles/index.html" },
