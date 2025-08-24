@@ -22,7 +22,7 @@ const ComponentCard: React.FC<ComponentCardProps> = ({
           to="/"
           className="text-center inline-block mt-3 text-sm font-medium text-gray-500 underline dark:text-gray-400"
       >
-        <h2 className="text-center text-base font-medium text-gray-800 dark:text-white/90 text">
+        <h2 className="text-base font-medium text-gray-800 dark:text-white/90 text">
           Subscribe Now!!
         </h2>
       </Link>

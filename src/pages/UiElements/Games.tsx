@@ -1,7 +1,6 @@
 import ComponentCard from "../../components/common/ComponentCard";
 import PageBreadcrumb from "../../components/common/PageBreadCrumb";
 import PageMeta from "../../components/common/PageMeta";
-import ThreeColumnSnakeGame from "../../components/ui/games/ThreeColumnSnakeGame";
 import GamesGrid from "../../components/ui/games/GamesGrid";
 
 export default function Games() {
@@ -10,6 +9,7 @@ export default function Games() {
       img: string,
       path: string
     }
+    const isFullscreen:boolean = true;
 
     const games: GameRef[] = [
         { img: "/games/100metresrace/Images/100metresrace_512x512.png", path: "/games/100metresrace/gamefiles/index.html" },
@@ -53,10 +53,7 @@ export default function Games() {
       <PageBreadcrumb pageTitle="Games" />
         <div className="space-y-5 sm:space-y-6">
             <ComponentCard title="Popular Games!">
-                <GamesGrid games={games} fullScreen />
-            </ComponentCard>
-            <ComponentCard title="Evergreen Classic Game!">
-                <ThreeColumnSnakeGame />
+                <GamesGrid games={games} fullScreen={isFullscreen} />
             </ComponentCard>
         </div>
     </>

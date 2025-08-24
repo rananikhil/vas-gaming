@@ -1,6 +1,12 @@
 import {useNavigate} from "react-router";
 
-export default function GameTile({ img, onSmash, playFullscreen }) {
+class LayoutProps {
+    img: string = ""
+    onSmash: string = ""
+    playFullscreen: boolean = false
+}
+
+export default function GameTile({ img, onSmash, playFullscreen }: LayoutProps) {
 
     const navigate = useNavigate();
 
